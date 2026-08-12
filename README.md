@@ -61,7 +61,7 @@ O ecossistema do projeto é dividido em três camadas principais:
 | Componente | Repositório / Status |
 | :--- | :--- |
 | **API REST (Python / FastAPI)** | [github.com/gabrielhencastro/SolicitacoesApi](https://github.com/gabrielhencastro/SolicitacoesApi) |
-| **Landing Page Web** | *Em desenvolvimento* |
+| **LANDING PAGE WEB** | [github.com/gabrielhencastro/SolicitacoesLandingPage](https://github.com/gabrielhencastro/SolicitacoesLandingPage) |
 
 ---
 
