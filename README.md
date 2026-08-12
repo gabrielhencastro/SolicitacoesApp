@@ -19,12 +19,13 @@ O **Solicitações APP** foi desenvolvido para modernizar e facilitar a abertura
 
 ---
 
-## Demonstração em Vídeo
+## Demonstração em Vídeo e Página Web
 
 Confira o funcionamento do aplicativo na prática:
 
 (EM DESENVOLVIMENTO)
 [![Assista ao vídeo](https://img.shields.io/badge/YouTube-Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
+| **LINK DA PÁGINA** | [gabrielhencastro.github.io/SolicitacoesLandingPage](https://gabrielhencastro.github.io/SolicitacoesLandingPage) |
 
 ##  Tecnologias e Arquitetura
 
