@@ -1,91 +1,95 @@
-#  Solicitações APP
+# Solicitações APP
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+[Flutter](https://flutter.dev)  
+[Dart](https://dart.dev)  
+[FastAPI](https://fastapi.tiangolo.com/)  
+[Python](https://www.python.org/)  
+[Supabase](https://supabase.com/)  
+[Render](https://render.com/)
 
-Uma solução completa para gestão de chamados urbanos voltada para prefeituras, conectando cidadãos e a administração pública de forma rápida, transparente e eficiente.
+A complete solution for urban request management aimed at municipalities, connecting citizens and public administration quickly, transparently, and efficiently.
 
 ---
 
 **HEIMDALL SOLUTIONS**
 
-##  Sobre o Projeto
+## About the Project
 
-O **Solicitações APP** foi desenvolvido para modernizar e facilitar a abertura, o acompanhamento e a resolução de demandas públicas municipais. A aplicação combina a flexibilidade do desenvolvimento mobile com uma infraestrutura em nuvem escalável e de baixo custo, eliminando a dependência de servidores físicos e simplificando a manutenção.
-
----
-
-## Demonstração em Vídeo e Página Web
-
-Confira o funcionamento do aplicativo na prática:
-
-(EM DESENVOLVIMENTO)
-[![Assista ao vídeo](https://img.shields.io/badge/YouTube-Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
-
-**LINK DA PÁGINA WEB** [gabrielhencastro.github.io/SolicitacoesLandingPage](https://gabrielhencastro.github.io/SolicitacoesLandingPage) 
-
-##  Tecnologias e Arquitetura
-
-O ecossistema do projeto é dividido em três camadas principais:
-
-###  **Front-End & Mobile**
-* **Mobile App:** Desenvolvido em **Flutter & Dart**, oferecendo uma experiência nativa, responsiva e intuitiva para o cidadão.
-* **Landing Page Web:** Desenvolvida com **HTML5, CSS3, JavaScript e Bootstrap** para apresentar o projeto e direcionar os usuários.
-
-###  **Back-End & Processamento**
-* **FastAPI (Python):** Servidor de API RESTful hospedado na nuvem via **Render**, focado em alta performance e baixo tempo de resposta.
-* **Pandas & FPDF:** Módulos dedicados ao processamento denso de dados e geração automatizada de relatórios analíticos em formato PDF para a gestão pública.
-
-###  **Banco de Dados & BaaS**
-* **Supabase (PostgreSQL):** Utilizado como Backend-as-a-Service para:
-  * Banco de dados relacional em nuvem com alta escalabilidade.
-  * Autenticação rápida e segura via SDK nativo do Flutter.
-  * Armazenamento de arquivos e imagens anexadas às solicitações (*Storage*).
-  * Segurança em ROW LEVEL SECURITY (RLS).
+The **Solicitações APP** was developed to modernize and simplify the opening, tracking, and resolution of municipal public demands. The application combines the flexibility of mobile development with a scalable, low-cost cloud infrastructure, eliminating dependence on physical servers and simplifying maintenance.
 
 ---
 
-##  Funcionalidades Principais
+## Video Demo and Web Page
 
--  **Abertura de Chamados:** Cadastro de ocorrências municipais com foto, descrição e localização.
--  **Autenticação Segura:** Login e cadastro de usuários integrados ao Supabase Auth.
--  **Emissão de Relatórios:** Geração automatizada de relatórios gerenciais em PDF via backend Python.
--  **Arquitetura 100% Serverless/Cloud:** Sem dependência de hardware físico local.
+Check out the app in action:
+
+(IN DEVELOPMENT)  
+YouTube Demo: https://youtube.com  
+
+**WEB PAGE LINK**: https://gabrielhencastro.github.io/SolicitacoesLandingPage
 
 ---
 
-##  Repositórios Relacionados
+## Technologies and Architecture
 
-| Componente | Repositório / Status |
+The project ecosystem is divided into three main layers:
+
+### Front-End & Mobile
+* **Mobile App:** Built with **Flutter & Dart**, offering a native, responsive, and intuitive experience for citizens.  
+* **Landing Page Web:** Developed with **HTML5, CSS3, JavaScript, and Bootstrap** to present the project and guide users.
+
+### Back-End & Processing
+* **FastAPI (Python):** RESTful API server hosted in the cloud via **Render**, focused on high performance and low response time.  
+* **Pandas & FPDF:** Modules dedicated to heavy data processing and automated generation of analytical reports in PDF format for public management.
+
+### Database & BaaS
+* **Supabase (PostgreSQL):** Used as Backend-as-a-Service for:  
+  * Cloud relational database with high scalability.  
+  * Fast and secure authentication via Flutter SDK.  
+  * File and image storage attached to requests (*Storage*).  
+  * Security with ROW LEVEL SECURITY (RLS).  
+
+---
+
+## Main Features
+
+- **Request Submission:** Register municipal occurrences with photo, description, and location.  
+- **Secure Authentication:** User login and registration integrated with Supabase Auth.  
+- **Report Generation:** Automated management reports in PDF via Python backend.  
+- **100% Serverless/Cloud Architecture:** No dependency on local physical hardware.  
+
+---
+
+## Related Repositories
+
+| Component | Repository / Status |
 | :--- | :--- |
-| **API REST (Python / FastAPI)** | [github.com/gabrielhencastro/SolicitacoesApi](https://github.com/gabrielhencastro/SolicitacoesApi) |
-| **LANDING PAGE WEB** | [github.com/gabrielhencastro/SolicitacoesLandingPage](https://github.com/gabrielhencastro/SolicitacoesLandingPage) |
+| **API REST (Python / FastAPI)** | https://github.com/gabrielhencastro/SolicitacoesApi |
+| **LANDING PAGE WEB** | https://github.com/gabrielhencastro/SolicitacoesLandingPage |
 
 ---
 
-##  Como Executar o Projeto Mobile
+## How to Run the Mobile Project
 
-### **Pré-requisitos**
-* [Flutter SDK](https://flutter.dev/docs/get-started/install) instalado e configurado.
-* [Git](https://git-scm.com/) instalado.
-* Conta no [Supabase](https://supabase.com/) configurada.
+### Prerequisites
+* [Flutter SDK](https://flutter.dev/docs/get-started/install) installed and configured.  
+* [Git](https://git-scm.com/) installed.  
+* Account on [Supabase](https://supabase.com/) configured.  
 
-### **Passos para rodar**
+### Steps to Run
 
-1. **Clone este repositório:**
+1. **Clone this repository:**
    ```bash
-   git clone [https://github.com/gabrielhencastro/solicitacoes_app.git](https://github.com/gabrielhencastro/solicitacoes_app.git)
+   git clone https://github.com/gabrielhencastro/solicitacoes_app.git
    cd solicitacoes_app
+   ```
 
-2. **Verifique como configurar a API no repositório anteriormente apresentado.**
+2. **Check how to configure the API in the previously presented repository.**
 
-3. **Configure as variáveis de ambiente:**
-- SUPABASE_URL
-- PUBLISHABLE_KEY
-- URL_API
-
-4. **Rode o app**
+3. **Set environment variables:**
+  ```env
+  SUPABASE_URL = ...
+  PUBLISHABLE_KEY = ...
+  URL_API = ...
+  ```
+4. **Run the app**
